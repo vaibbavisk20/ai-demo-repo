@@ -33,4 +33,4 @@ jobs:
             subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
             resource-group-name: ${{ vars.AZURE_RG }}
             principal-id: ${{ secrets.AZURE_APP_ID }}
-            location: 'eastus'
+            location: ${{ vars.AZURE_LOCATION }}
