@@ -52,6 +52,6 @@ jobs:
           additional-args: '{
             "AZURE_APP_SERVICE_SKU":"B2", 
             }'
-          # bring-your-own-data: true
-          # data-path: "mydata"
+          bring-your-own-data: true
+          data-path: "mydata"
          
